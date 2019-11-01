@@ -13,12 +13,12 @@
     {
       "name": "Shows",
       "id": 3,
-      "coverUrl": ""
+      "coverUrl": "https://i.pinimg.com/originals/24/5a/a0/245aa0ec9ffd8877c23eef4aa1495bfb.jpg"
     },
     {
       "name": "Kpop",
       "id": 4,
-      "coverUrl": ""
+      "coverUrl": "https://cdn.discordapp.com/attachments/138194610101944320/639646654735319059/Near_by_TWICE_20191101102952_9.___.JPG.jpg"
     },
     {
       "name": "Food",
@@ -28,7 +28,7 @@
     {
       "name": "Manga",
       "id": 6,
-      "coverUrl": ""
+      "coverUrl": "https://i.pinimg.com/originals/c1/55/f6/c155f6b2c47353c3f16b492fc3c93c31.jpg"
     }
   ],
 
@@ -38,19 +38,19 @@
 
   "pictures": [
     {
-      "name": "",
+      "name": "Halo 3",
       "id": 1,
       "albumId": 1,
       "url": "https://content.halocdn.com/media/Default/games/halo-3/Page/halo-3-hero-large-800x675-7f968d3354a3447fa8aae87f03628467.jpg"
     },
     {
-      "name": "",
+      "name": "Persona 5",
       "id": 2,
       "albumId": 1,
       "url": "https://wallpaperaccess.com/full/662899.jpg"
     },
     {
-      "name": "",
+      "name": "Monster Hunter World",
       "id": 3,
       "albumId": 1,
       "url": "https://hdqwalls.com/download/monster-hunter-world-hd-h6-1125x2436.jpg"
@@ -74,40 +74,40 @@
       "url": "https://a.espncdn.com/photo/2017/0523/r212009_864x1296_2-3.jpg"
     },
     {
-      "name": "",
+      "name": "Mr. Robot",
       "id": 7,
       "albumId": 3,
-      "url": ""
+      "url": "https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg"
     },
     {
-      "name": "",
+      "name": "Your Lie in April",
       "id": 8,
       "albumId": 3,
-      "url": ""
+      "url": "https://i.pinimg.com/originals/7b/cd/7e/7bcd7ef4c5765b7b0dc86da1bdfc8989.jpg"
     },
     {
-      "name": "",
+      "name": "Breaking Bad",
       "id": 9,
       "albumId": 3,
-      "url": ""
+      "url": "https://wallpapers.moviemania.io/phone/tv/1396/625832/breaking-bad-phone-wallpaper.jpg?w=1536&h=2732"
     },
     {
-      "name": "",
+      "name": "LOONA",
       "id": 10,
       "albumId": 4,
-      "url": ""
+      "url": "https://data.whicdn.com/images/326947647/original.jpg"
     },
     {
-      "name": "",
+      "name": "Twice",
       "id": 11,
       "albumId": 4,
-      "url": ""
+      "url": "https://wallpapercave.com/wp/wp4324171.jpg"
     },
     {
-      "name": "",
+      "name": "(G)I-dle",
       "id": 12,
       "albumId": 4,
-      "url": ""
+      "url": "https://i.pinimg.com/736x/ff/79/4b/ff794baf7f43a644270d7e05cddeeb43.jpg"
     },
     {
       "name": "Sushi Zone",
@@ -128,22 +128,22 @@
       "url": "https://s3-media4.fl.yelpcdn.com/bphoto/t37yL1EQ0BTXf_wxold5CA/o.jpg"
     },
     {
-      "name": "",
+      "name": "One Punch Man",
       "id": 16,
       "albumId": 6,
-      "url": ""
+      "url": "https://images-na.ssl-images-amazon.com/images/I/81VAgJoB3BL.jpg"
     },
     {
-      "name": "",
+      "name": "Tokyo Ghoul:re",
       "id": 17,
       "albumId": 6,
-      "url": ""
+      "url": "https://www.rightstufanime.com/images/productImages/9781421594972_manga-tokyo-ghoul-re-2-primary.jpg"
     },
     {
-      "name": "",
+      "name": "Horimiya",
       "id": 18,
       "albumId": 6,
-      "url": ""
+      "url": "https://vignette.wikia.nocookie.net/horimiya/images/5/54/Volume_6.jpg/revision/latest?cb=20160226065910"
     }
   ]
 }

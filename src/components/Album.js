@@ -4,20 +4,26 @@ import { Link } from 'react-router-dom'
 
 function Album(props) {
     const [gallery, setGallery] = useState([]) 
-    const [album, setAlbum] = useState({})
-    
+    const [albums, setAlbums] = useState([])
+    const [albumName, setAlbumName] = useState('')
+    const id = props.match.params.id
 
     useEffect(() => {
-        const id = props.match.params.id
         axios.get(`/albums/${id}?_embed=pictures`).then(resp => {
             setGallery(resp.data.pictures)
-            setAlbum(resp.data)
+            setAlbumName(resp.data.name)
+        })
+    }, [id])
+
+    useEffect(() => {
+        axios.get("/albums").then(resp => {
+            setAlbums(resp.data)
         })
     }, [])
 
   return (
       <div className=''>
-          <h1>Album Name</h1>
+          <h1>{albumName}</h1> <Link to=''><div className='home'>&larr;</div></Link>
           <div className='onealbum'>
           {gallery.map(gal => (
                 <Link className='albumlink' key={'gallery-link-' + gal.id} to={'/pic/' + gal.id}>
@@ -29,13 +35,19 @@ function Album(props) {
               ))}
           </div>
           <div className='albumnav'>
+          {albums.map(album => (
+                  <Link key={'album-link-' + album.id} to={'/albums/' + album.id}>
+                    <div>
+                        <p>{album.name}</p>
+                    </div>
+                  </Link>
+              ))}
 
           </div>
+          
 
       </div>
   )
 }
 
 export default Album
-
-/*  */
