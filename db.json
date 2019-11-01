@@ -1,0 +1,149 @@
+{
+  "albums": [
+    {
+      "name": "Games",
+      "id": 1,
+      "coverUrl": "https://i.redd.it/csuj7s38e3px.png"
+    },
+    {
+      "name": "Basketball",
+      "id": 2,
+      "coverUrl": "https://a.espncdn.com/photo/2017/0519/r210884_1296x864_3-2.jpg"
+    },
+    {
+      "name": "Shows",
+      "id": 3,
+      "coverUrl": ""
+    },
+    {
+      "name": "Kpop",
+      "id": 4,
+      "coverUrl": ""
+    },
+    {
+      "name": "Food",
+      "id": 5,
+      "coverUrl": "https://s3-media2.fl.yelpcdn.com/bphoto/x6shNTJQReP24hugEryuog/o.jpg"
+    },
+    {
+      "name": "Manga",
+      "id": 6,
+      "coverUrl": ""
+    }
+  ],
+
+
+
+
+
+  "pictures": [
+    {
+      "name": "",
+      "id": 1,
+      "albumId": 1,
+      "url": "https://content.halocdn.com/media/Default/games/halo-3/Page/halo-3-hero-large-800x675-7f968d3354a3447fa8aae87f03628467.jpg"
+    },
+    {
+      "name": "",
+      "id": 2,
+      "albumId": 1,
+      "url": "https://wallpaperaccess.com/full/662899.jpg"
+    },
+    {
+      "name": "",
+      "id": 3,
+      "albumId": 1,
+      "url": "https://hdqwalls.com/download/monster-hunter-world-hd-h6-1125x2436.jpg"
+    },
+    {
+      "name": "Kobe Dunk",
+      "id": 4,
+      "albumId": 2,
+      "url": "https://a.espncdn.com/photo/2017/0519/r210878_600x600_1-1.jpg"
+    },
+    {
+      "name": "Vince Dunk",
+      "id": 5,
+      "albumId": 2,
+      "url": "https://a.espncdn.com/photo/2017/0519/r210874_2370x3600cc.jpg"
+    },
+    {
+      "name": "Magic and Bird",
+      "id": 6,
+      "albumId": 2,
+      "url": "https://a.espncdn.com/photo/2017/0523/r212009_864x1296_2-3.jpg"
+    },
+    {
+      "name": "",
+      "id": 7,
+      "albumId": 3,
+      "url": ""
+    },
+    {
+      "name": "",
+      "id": 8,
+      "albumId": 3,
+      "url": ""
+    },
+    {
+      "name": "",
+      "id": 9,
+      "albumId": 3,
+      "url": ""
+    },
+    {
+      "name": "",
+      "id": 10,
+      "albumId": 4,
+      "url": ""
+    },
+    {
+      "name": "",
+      "id": 11,
+      "albumId": 4,
+      "url": ""
+    },
+    {
+      "name": "",
+      "id": 12,
+      "albumId": 4,
+      "url": ""
+    },
+    {
+      "name": "Sushi Zone",
+      "id": 13,
+      "albumId": 5,
+      "url": "https://s3-media3.fl.yelpcdn.com/bphoto/zwK5q4g7Lb6l8KogaHKbgA/o.jpg"
+    },
+    {
+      "name": "Brother's Pizza",
+      "id": 14,
+      "albumId": 5,
+      "url": "https://s3-media3.fl.yelpcdn.com/bphoto/OETRYQyPxHzfnjLsWYWL1w/o.jpg"
+    },
+    {
+      "name": "Is Sweet",
+      "id": 15,
+      "albumId": 5,
+      "url": "https://s3-media4.fl.yelpcdn.com/bphoto/t37yL1EQ0BTXf_wxold5CA/o.jpg"
+    },
+    {
+      "name": "",
+      "id": 16,
+      "albumId": 6,
+      "url": ""
+    },
+    {
+      "name": "",
+      "id": 17,
+      "albumId": 6,
+      "url": ""
+    },
+    {
+      "name": "",
+      "id": 18,
+      "albumId": 6,
+      "url": ""
+    }
+  ]
+}
