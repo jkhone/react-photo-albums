@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import Icon from '../lib/Icon'
 
 function Album(props) {
     const [gallery, setGallery] = useState([]) 
@@ -23,7 +24,10 @@ function Album(props) {
 
   return (
       <div className=''>
-          <h1>{albumName}</h1> <Link to=''><div className='home'>&larr;</div></Link>
+          <div className='top'>
+          <h1>{albumName}</h1> 
+          <Link className='home' to=''><div className='home'><Icon icon='home'/></div></Link>
+          </div>
           <div className='onealbum'>
           {gallery.map(gal => (
                 <Link className='albumlink' key={'gallery-link-' + gal.id} to={'/pic/' + gal.id}>

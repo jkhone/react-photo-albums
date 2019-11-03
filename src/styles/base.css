@@ -14,7 +14,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: beige;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(0deg, #FFFFFF 0%, #2b3454 22%, #332323 99%);
+  background-repeat: no-repeat;
 }
 
 code {
